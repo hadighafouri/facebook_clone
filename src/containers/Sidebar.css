@@ -1,0 +1,8 @@
+.sidebar {
+  padding: 10px 10px;
+  flex: 0.30;
+}
+
+.sidebar__avatar {
+  margin: 10px;
+}

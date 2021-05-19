@@ -1,0 +1,32 @@
+.story {
+  margin: 5px;
+}
+
+.story__bgImg {
+  position: relative;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 120px;
+  height: 200px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 100ms ease-in;
+  box-shadow: 10px 15px 10px -10px rgb(15, 9, 9);
+}
+
+.story__bgImg:hover {
+  transform: scale(1.05);
+}
+
+.story__avatar {
+  margin: 10px;
+  border: 2px solid blue;
+}
+
+.story__bgImg>h4 {
+  position: absolute;
+  bottom: 20px;
+  color: white;
+  left: 10px;
+}
